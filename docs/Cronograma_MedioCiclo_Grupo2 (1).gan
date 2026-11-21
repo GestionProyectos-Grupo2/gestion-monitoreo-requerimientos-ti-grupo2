@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Gestión y Monitoreo de Requerimientos de TI - Medio Ciclo" company="Grupo 2 - UTM" webLink="" view-date="2026-11-16" view-index="0" gantt-divider-location="400" resource-divider-location="300" version="3.2.3" locale="es">
+<description>Cronograma de Medio Ciclo: 25 días hábiles (16/11/2026 - 18/12/2026), ruta crítica A-B-C-E, 3 sprints. Alineado con la EDT y las 15 HU de la Tarea 1.</description>
+<view zooming-state="default:3" id="gantt-chart"><field id="tpd3" name="Nombre" width="250" order="0"/><field id="tpd4" name="Fecha de inicio" width="80" order="1"/><field id="tpd5" name="Fecha de fin" width="80" order="2"/></view>
+<view id="resource-table"><field id="0" name="Nombre" width="150" order="0"/><field id="1" name="Rol predeterminado" width="150" order="1"/></view>
+<calendars><day-types><day-type id="0"/><day-type id="1"/><default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/><only-show-weekends value="false"/><overriden-day-types/><days/></day-types></calendars>
+<tasks empty-milestones="true">
+<task id="20" name="SPRINT 1 (días 1-8)" color="#6fa8dc" meeting="false" start="2026-11-16" duration="8" complete="0" expand="true"/>
+<task id="21" name="SPRINT 2 (días 9-16)" color="#f1c232" meeting="false" start="2026-11-26" duration="8" complete="0" expand="true"/>
+<task id="22" name="SPRINT 3 (días 17-25)" color="#6aa84f" meeting="false" start="2026-12-08" duration="9" complete="0" expand="true"/>
+<task id="1" name="A - Arquitectura, datos y entorno Cloud" color="#cc0000" meeting="false" start="2026-11-16" duration="4" complete="0" expand="true"><depend id="2" type="2" difference="0" hardness="Strong"/></task>
+<task id="2" name="B - Módulo transaccional (API y portal)" color="#cc0000" meeting="false" start="2026-11-20" duration="8" complete="0" expand="true"><depend id="3" type="2" difference="0" hardness="Strong"/><depend id="4" type="2" difference="1" hardness="Strong"/></task>
+<task id="3" name="C - Módulo de IA" color="#cc0000" meeting="false" start="2026-12-02" duration="8" complete="0" expand="true"><depend id="5" type="2" difference="0" hardness="Strong"/></task>
+<task id="4" name="D - Dashboard analítico" color="#2e6da4" meeting="false" start="2026-12-03" duration="5" complete="0" expand="true"><depend id="5" type="2" difference="0" hardness="Strong"/></task>
+<task id="5" name="E - Pruebas, despliegue y cierre" color="#cc0000" meeting="false" start="2026-12-14" duration="5" complete="0" expand="true"></task>
+<task id="10" name="M1 - Infraestructura y BD Base" color="#e0a100" meeting="true" start="2026-11-19" duration="0" complete="0" expand="true"/>
+<task id="11" name="M2 - API REST y Portal Operativos" color="#e0a100" meeting="true" start="2026-12-01" duration="0" complete="0" expand="true"/>
+<task id="12" name="M3 - Integración IA y Dashboard" color="#e0a100" meeting="true" start="2026-12-11" duration="0" complete="0" expand="true"/>
+<task id="13" name="M4 - Despliegue Final y Cierre" color="#e0a100" meeting="true" start="2026-12-18" duration="0" complete="0" expand="true"/>
+<task id="30" name="Desglose por tarea (EDT / HU)" color="#8a94a6" meeting="false" start="2026-11-16" duration="25" complete="0" expand="false">
+<task id="31" name="A.1 Afinar arquitectura lógica y contratos de API (OpenAPI) [1.2.1 · 1.2.3 · Todas]" color="#cc0000" meeting="false" start="2026-11-16" duration="2" complete="0" expand="true"/>
+<task id="32" name="A.2 Modelo de datos final y script DDL [1.2.2 · HU-01, 09, 13, 14, 15]" color="#cc0000" meeting="false" start="2026-11-17" duration="2" complete="0" expand="true"/>
+<task id="33" name="A.3 Entorno Cloud y base de datos relacional desplegada [1.5.5 · Todas]" color="#cc0000" meeting="false" start="2026-11-19" duration="1" complete="0" expand="true"/>
+<task id="34" name="A.4 Prototipos de alta fidelidad en Figma (portal y dashboard) [1.2.5 · HU-01, 03, 11–14]" color="#cc0000" meeting="false" start="2026-11-16" duration="3" complete="0" expand="true"/>
+<task id="35" name="B.1 Autenticación, usuarios y roles (RBAC con JWT) [1.3.1 · HU-10]" color="#cc0000" meeting="false" start="2026-11-20" duration="3" complete="0" expand="true"/>
+<task id="36" name="B.2 Portal de registro de requerimientos: formulario y validaciones [1.3.2 · HU-01]" color="#cc0000" meeting="false" start="2026-11-25" duration="2" complete="0" expand="true"/>
+<task id="37" name="B.3 Validación de datos y adjuntos de evidencia [1.3.2 · HU-02]" color="#cc0000" meeting="false" start="2026-11-27" duration="2" complete="0" expand="true"/>
+<task id="38" name="B.4 Consulta de solicitudes: listas, filtros y detalle [1.3.3 · HU-03]" color="#cc0000" meeting="false" start="2026-11-27" duration="2" complete="0" expand="true"/>
+<task id="39" name="B.5 Edición de solicitud con historial de cambios [1.3.3 · HU-04]" color="#cc0000" meeting="false" start="2026-12-01" duration="1" complete="0" expand="true"/>
+<task id="40" name="B.6 Flujo de trabajo y estados del ticket [1.3.4 · HU-09]" color="#cc0000" meeting="false" start="2026-11-25" duration="3" complete="0" expand="true"/>
+<task id="41" name="B.7 Historial de eventos y manejo de errores [1.3.5 · HU-15]" color="#cc0000" meeting="false" start="2026-11-30" duration="2" complete="0" expand="true"/>
+<task id="42" name="C.1 Datos de entrenamiento y evaluación (tickets etiquetados) [1.4.1 · HU-05 a 07]" color="#cc0000" meeting="false" start="2026-12-02" duration="2" complete="0" expand="true"/>
+<task id="43" name="C.2 Clasificador de categoría con NLP [1.4.2 · HU-05]" color="#cc0000" meeting="false" start="2026-12-04" duration="3" complete="0" expand="true"/>
+<task id="44" name="C.3 Integración del microservicio de IA con la API [1.4.2 · HU-05 a 07]" color="#cc0000" meeting="false" start="2026-12-09" duration="2" complete="0" expand="true"/>
+<task id="45" name="C.4 Sugerencia de prioridad Alta/Media/Baja [1.4.3 · HU-06]" color="#cc0000" meeting="false" start="2026-12-04" duration="2" complete="0" expand="true"/>
+<task id="46" name="C.5 Sugerencia de perfil técnico idóneo [1.4.3 · HU-07]" color="#cc0000" meeting="false" start="2026-12-04" duration="2" complete="0" expand="true"/>
+<task id="47" name="C.6 Revisión humana de las sugerencias de la IA [1.4.4 · HU-08]" color="#cc0000" meeting="false" start="2026-12-11" duration="1" complete="0" expand="true"/>
+<task id="48" name="D.1 Cálculo de KPI: MTTR, velocidad, reapertura y desviación [1.4.5 · HU-11 a 14]" color="#2e6da4" meeting="false" start="2026-12-03" duration="2" complete="0" expand="true"/>
+<task id="49" name="D.2 Dashboard del Tiempo Medio de Resolución (MTTR) [1.4.6 · HU-11]" color="#2e6da4" meeting="false" start="2026-12-07" duration="3" complete="0" expand="true"/>
+<task id="50" name="D.3 Dashboards de velocidad, reapertura y desviación de fechas [1.4.6 · HU-12, 13, 14]" color="#2e6da4" meeting="false" start="2026-12-07" duration="3" complete="0" expand="true"/>
+<task id="51" name="E.1 Plan y ejecución de pruebas funcionales, de integración y de aceptación [1.5.2 · 1.5.3 · HU-01 a 15]" color="#cc0000" meeting="false" start="2026-12-15" duration="3" complete="0" expand="true"/>
+<task id="52" name="E.2 Integración continua (CI/CD) con pruebas automáticas [1.5.4 · Todas]" color="#cc0000" meeting="false" start="2026-12-14" duration="1" complete="0" expand="true"/>
+<task id="53" name="E.3 Despliegue a producción y entornos [1.5.5 · Todas]" color="#cc0000" meeting="false" start="2026-12-18" duration="1" complete="0" expand="true"/>
+<task id="54" name="E.4 Manual de usuario y cierre del proyecto [1.5.6 · Todas]" color="#cc0000" meeting="false" start="2026-12-15" duration="3" complete="0" expand="true"/>
+</task>
+</tasks><resources>
+<resource id="0" name="Chávez Macías Loyni Nicole" function="Default:1" contacts="" phone="" email=""><rate name="standard" value="10.0"/></resource>
+<resource id="1" name="Contrera Farias Jhonny Andrés" function="Default:1" contacts="" phone="" email=""><rate name="standard" value="12.0"/></resource>
+<resource id="2" name="Sánchez Pinoargote Luis Mike" function="Default:1" contacts="" phone="" email=""><rate name="standard" value="10.0"/></resource>
+<resource id="3" name="Alava Naranjo Jordy Paul" function="Default:1" contacts="" phone="" email=""><rate name="standard" value="8.0"/></resource>
+<resource id="4" name="Aguilar Castro Tyrone Miguel" function="Default:1" contacts="" phone="" email=""><rate name="standard" value="8.0"/></resource>
+</resources><allocations>
+<allocation task-id="1" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="2" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="3" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="4" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="5" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="31" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="32" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="33" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="34" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="35" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="36" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="37" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="38" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="39" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="40" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="41" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="42" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="43" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="44" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="45" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="46" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="47" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="48" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="49" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="50" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="51" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="52" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="53" resource-id="4" function="Default:1" responsible="true" load="100.0"/>
+<allocation task-id="54" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
+</allocations><vacations/><previous/><roles roleset-name="Default"/></project>
